@@ -1,7 +1,7 @@
 ////1. Create an arrow function by which will take multiple strings and you have print each string along with length of each string.
 var stringList = ["Typescript", "Introduction of TypeScript", "Installation", "Variable declaration and function declaration", "Array and Tuple", "Arrow Function"];
 stringList.map(function (string) { return (console.log(string + " - ", string.length)); });
-console.log("=================================================================================");
+console.log("==================================================================================");
 ////2. Create an arrow function by which you have to sort the given numbers.
 var numbers = [100, 200, 400, 1000, 500, 300, 700, 600, 900];
 numbers.sort(function (a, b) { return a - b; });
